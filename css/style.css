@@ -1,0 +1,159 @@
+/* TODAS */
+    body{
+    background-image:
+        url(../img/fondoWeb.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    margin: 2%;
+    }
+     
+
+    .fondoSeccion {
+
+        background-image: 
+            url(../img/FondoSection.jpg);
+        
+        padding: 40px;
+    }
+
+    .imgIndex {
+        
+        align-self: center;
+        justify-self: center;
+    }
+
+    @keyframes logoAnim {
+
+        0% { opacity: 0;
+        }
+        100% { opacity: 100;
+        }
+    }
+
+    header{
+        animation-name: logoAnim;
+        animation-iteration-count: initial;
+        animation-duration: 5s;
+    }
+
+    .animacionImag:hover {
+
+        transform: scale(1.5,1.5);
+        transition: all 5s;
+
+    }
+
+    .menu ul {
+        
+        padding: 0;
+        list-style: none;
+        display: flex;
+        margin-bottom: 60px;
+        flex-wrap: wrap;
+      }
+
+    .menu li {
+         flex-grow: 1;
+         flex-shrink: 1;
+
+      }
+
+    .menu a { 
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-family: 'Roboto Slab', serif;
+        font-size: 400;
+        background-color: rgba(0,0,0,0.4);
+        padding: 10px;
+
+      }
+      
+    .menu ul ul { 
+
+        display: none;
+        position: absolute;
+        text-align: center;
+        flex-grow: 1;
+        
+      }
+
+    .menu ul ul li {
+
+        width: 100%;
+    }      
+     
+    .menu ul li:hover ul {
+
+         display:block;
+         position: absolute;
+         flex-grow: 1;
+      }
+
+    li:hover {
+
+        background-color: black;
+
+    }
+
+    h2 {
+        color: rgb(2,28,77);
+        font-family: 'Hepta Slab', serif;
+        margin: 30px 0px 30px 0px;
+    }
+
+    p {
+
+        color: black;
+        font-family: 'Roboto Slab', serif;
+        font-size:16px;
+    
+    }
+
+    #Footer {
+        background-color: rgba(255,255,255, 0.6);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 2%;
+        margin: 3% 0% 3% 0%;
+      }
+
+/* PRINCIPAL */
+
+    .tituloIndex {
+    text-align: center;
+    }
+
+/*MANTENIMIENTO Y QUIENES SOMOS */
+
+    .mantTexto {
+        text-align: right;
+    }
+    
+
+
+/* FUNCIONAMIENTO */
+
+/* PRODUCTOS */
+
+    table {
+
+        margin: 50px 0px 50px 0px;
+    }
+
+    table td {
+
+    border: 2px solid black;
+    width: 250px;
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 300;
+    }
+
+/* CONTACTO */
+
